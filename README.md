@@ -18,8 +18,8 @@ Este bot localiza uma sequencia de caracteres através de regex para criar uma l
             --rm -it approbocnpj:1.0" com esse comando você está executando o container e salvando os arquivos no diretório "files", é importante que você não esqueça de colocar a variável de ambiente "URL".
 
 # Motivações
-    - Js ao invés de .sh, .ps1 ou .py? 
-        Sim, pois eu quiz assim!
+    - .Js ao invés de .sh, .ps1 ou .py? 
+        Sim, pois eu quis assim!
     - Wget?
         wget é um utilitário simples mas eficiente para download, roda nas grandes plataformas de sistemas operacionais (Microsoft Windows,macOs, linux e freeBSD). Mas a possíbilidade de limitar a banda consumida para baixar arquivos e conseguir retomar downloads interrompidos com argumentos simples, foram os pontos determinantes para essa escolha. 
         Mas o maior motivo foi "Porque eu quis!".
