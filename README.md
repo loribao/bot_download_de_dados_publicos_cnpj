@@ -21,12 +21,7 @@ Este bot localiza uma sequencia de caracteres através de regex para criar uma l
         "docker run --volume $(pwd)/files:/app/files \
             --env URL=https://receita.economia.gov.br/orientacao/tributaria/cadastros/cadastro-nacional-de-pessoas-juridicas-cnpj/dados-publicos-cnpj \
             --rm -it approbocnpj:1.0" com esse comando você está executando o container e salvando os arquivos no diretório "files", é importante que você não esqueça de colocar a variável de ambiente "URL".
- <iframe width="560" height="415"
-    src="https://youtu.be/5Q5OZyI0utw" 
-    frameborder="1" 
-    allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" 
-    allowfullscreen>
-</iframe>
+<iframe width="545" height="527" src="https://www.youtube.com/embed/5Q5OZyI0utw" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 # Motivações
     - .Js ao invés de .sh, .ps1 ou .py? 
