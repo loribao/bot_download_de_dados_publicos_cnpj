@@ -6,16 +6,27 @@ Este bot localiza uma sequencia de caracteres através de regex para criar uma l
     - Docker
 # Execução
     - 1 - No diretório do projeto execute o comando:
+
         $ docker build . -t approbocnpj:1.0 
+        
         esse comando criara a imagem docker
     - 2 - Execute o comando:
-        $ mkdir -p files && docker docker run --volume $(pwd)/files:/app/files \
+
+        $ mkdir -p files && docker run --volume $(pwd)/files:/app/files \
             --env URL=https://receita.economia.gov.br/orientacao/tributaria/cadastros/cadastro-nacional-de-pessoas-juridicas-cnpj/dados-publicos-cnpj \
             --rm -it approbocnpj:1.0
+
+
         "mkdir -p files" garante que o diretório esteja criado e 
         "docker run --volume $(pwd)/files:/app/files \
             --env URL=https://receita.economia.gov.br/orientacao/tributaria/cadastros/cadastro-nacional-de-pessoas-juridicas-cnpj/dados-publicos-cnpj \
             --rm -it approbocnpj:1.0" com esse comando você está executando o container e salvando os arquivos no diretório "files", é importante que você não esqueça de colocar a variável de ambiente "URL".
+ <iframe width="560" height="415"
+    src="https://youtu.be/5Q5OZyI0utw" 
+    frameborder="1" 
+    allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" 
+    allowfullscreen>
+</iframe>
 
 # Motivações
     - .Js ao invés de .sh, .ps1 ou .py? 
